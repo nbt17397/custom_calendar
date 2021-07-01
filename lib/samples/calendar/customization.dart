@@ -554,9 +554,10 @@ class _CustomizationCalendarState extends SampleViewState {
                       ],
                     ),
                     Text(
-                      DateFormat(format).format(meeting.from).toString() +
-                          ' - ' +
-                          DateFormat(format).format(meeting.to).toString(),
+                      DateFormat(format).format(meeting.from).toString(),
+                          // +
+                          // ' - ' +
+                          // DateFormat(format).format(meeting.to).toString(),
                       style: TextStyle(
                         color: textColor.withOpacity(0.6),
                         fontFamily: 'Roboto',
